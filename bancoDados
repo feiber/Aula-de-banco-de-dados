@@ -1,0 +1,10 @@
+Ìndice é uma estrutura (ou arquivo) auxiliar associado a uma tabela.
+Sua função é acelerar o tempo de acesso às linhas de uma tabela, criando ponteiros para os dados armazenados em colunas específicas.
+Índices Compostos: fazem referência a mais de uma coluna.
+Índices Simples: fazem referência a uma única coluna.
+
+
+
+Chaves primárias referem-se aos conjuntos de um ou mais campos, cujos valores, considerando a combinação de valores de todos os campos da tupla 
+nunca se repetem e que podem ser usadas como um índice para os demais campos da tabela do banco de dados. 
+Em chaves primárias, não pode haver valores nulos nem repetição de tuplas.
